@@ -2,6 +2,7 @@
 #define CONCURRENCPP_ERRORS_H
 
 #include <stdexcept>
+#include "platform_defs.h"
 
 namespace concurrencpp::errors {
     struct CRCPP_API empty_object : public std::runtime_error {
